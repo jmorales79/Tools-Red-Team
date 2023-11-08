@@ -11,8 +11,9 @@ Herramientas para evaluar un posible ataque Ransomware
 
 4.4. View remote shares (T1135)	net view \\10.0.10.12 /all
 
-4.5. Find files (T1005)	Get-ChildItem C:\ -Recurse -Include confidential.* -ErrorAction 'SilentlyContinue' | foreach {$_.FullName} | Select-Object -first 5
-	Get-ChildItem C:\ -Recurse -Include password.* -ErrorAction 'SilentlyContinue' | foreach {$_.FullName} | Select-Object -first 5
+4.5. Find files (T1005)	
+Get-ChildItem C:\ -Recurse -Include confidential.* -ErrorAction 'SilentlyContinue' | foreach {$_.FullName} | Select-Object -first 5
+Get-ChildItem C:\ -Recurse -Include password.* -ErrorAction 'SilentlyContinue' | foreach {$_.FullName} | Select-Object -first 5
  
 4.6. Manual Command - (T1059)	Get-Content -Path  c:\confidential\confidential.txt
 
