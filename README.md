@@ -1,6 +1,7 @@
 # Tools-Red-Team
-Herramientas para evaluar un posible ataque Ransomware
+Threat Hunting using Vision One
 
+Herramientas para evaluar un posible ataque Ransomware
 
 4.1. Current User (T1033)	whoami
 
